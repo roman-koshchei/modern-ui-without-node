@@ -1,0 +1,12 @@
+---
+import Layout from "../layouts/Layout.astro"
+import { Counter } from "../components/Counter"
+---
+
+<Layout title="Welcome to Astro.">
+  <main>
+    <h1>Home</h1>
+
+    <Counter client:load />
+  </main>
+</Layout>

@@ -1,0 +1,13 @@
+---
+import Layout from "../layouts/Layout.astro"
+import { Counter } from "../components/Counter"
+import { ProductInfo } from "../components/ProductInfo"
+---
+
+<Layout title="Products to Astro.">
+  <main>
+    <h1>Product</h1>
+
+    <ProductInfo client:load />
+  </main>
+</Layout>
